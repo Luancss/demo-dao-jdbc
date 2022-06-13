@@ -12,9 +12,9 @@ public class Department implements Serializable {
 	public Department () {
 	}
 
-	public Department(Integer id, String nameString) {
+	public Department(Integer id, String name) {
 		this.id = id;
-		this.name = nameString;
+		this.name = name;
 	}
 
 	public Integer getId() {
@@ -29,8 +29,8 @@ public class Department implements Serializable {
 		return name;
 	}
 
-	public void setNameString(String nameString) {
-		this.name = nameString;
+	public void setNameString(String name) {
+		this.name = name;
 	}
 
 	@Override
